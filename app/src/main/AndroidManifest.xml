@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoUIA">
         <activity
+            android:name=".ActivitatHotels"
+            android:exported="true" />
+        <activity
+            android:name=".ActivitatBusinesses"
+            android:exported="true" />
+        <activity
+            android:name=".ActivitatRest"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
