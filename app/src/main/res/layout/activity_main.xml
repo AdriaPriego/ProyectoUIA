@@ -16,7 +16,7 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_weight="1"
-            android:src="@drawable/"
+            android:src="@drawable/business"
             android:layout_margin="10dp"
             android:scaleType="fitCenter">
         </ImageButton>
@@ -25,7 +25,7 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_weight="1"
-            android:src="@drawable/"
+            android:src="@drawable/restaurants"
             android:layout_margin="10dp"
             android:scaleType="fitCenter">
         </ImageButton>
@@ -40,7 +40,7 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_weight="1"
-            android:src="@drawable/"
+            android:src="@drawable/movies"
             android:layout_margin="10dp"
             android:scaleType="fitCenter">
         </ImageButton>
@@ -49,7 +49,7 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_weight="1"
-            android:src="@drawable/"
+            android:src="@drawable/parking"
             android:layout_margin="10dp"
             android:scaleType="fitCenter">
         </ImageButton>
@@ -64,7 +64,7 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_weight="1"
-            android:src="@drawable/"
+            android:src="@drawable/hotels"
             android:layout_margin="10dp"
             android:scaleType="fitCenter">
         </ImageButton>
@@ -73,7 +73,7 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_weight="1"
-            android:src="@drawable/"
+            android:src="@drawable/transport"
             android:layout_margin="10dp"
             android:scaleType="fitCenter">
         </ImageButton>
