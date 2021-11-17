@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ProyectoUIA</string>
+    <string name="elespiaingles">Durant la guerra freda entre els Estats Units i Rússia, l\'enginyer Greville Wynne (Benedict Cumberbatch) s\'infiltra com espia al MI5, servei d\'intel·ligència britànic. Quan la crisi dels míssils cubans promet inclinar la balança a favor del país soviètic, Wynne començarà a treballar amb la CIA per filtrar informació sobre el pla que tenen en marxa els russos i així evitar una catàstrofe.</string>
+    <string name="elespiainglesDurada"><b>Durada:</b>111\'</string>
+    <string name="elespiainglesDirector"><b>Director:</b>Dominic Cooke</string>
+    <string name="elespiainglesActors"><b>Director:</b>Benedict Cumberbatch , Rachel Brosnahan , Merab Ninidze , Jessie Buckley</string>
+    <string name="elespiainglesQualificacio"><b>Qualificació:</b>12 anys</string>
+    <string name="elespiainglesGenere"><b>Gènere:</b>Drama - Thriller</string>
+
 </resources>
