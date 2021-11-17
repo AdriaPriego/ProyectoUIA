@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoUIA">
         <activity
+            android:name=".ActivitatTransport"
+            android:exported="true" />
+        <activity
+            android:name=".ActivitatParkings"
+            android:exported="true" />
+        <activity
+            android:name=".ActivitatMovies"
+            android:exported="true" />
+        <activity
             android:name=".ActivitatHotels"
             android:exported="true" />
         <activity
