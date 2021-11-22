@@ -1,92 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#1E1E1E"
     tools:context=".MainActivity"
     android:orientation="vertical">
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        tools:ignore="ContentDescription">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            tools:ignore="ContentDescription">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="25dp">
-                <ImageButton
-                    android:id="@+id/businesses"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/business"
-                    android:layout_margin="10dp"
-                    android:scaleType="fitCenter">
-                </ImageButton>
-                <ImageButton
-                    android:id="@+id/restaurants"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/restaurants"
-                    android:layout_margin="10dp"
-                    android:scaleType="fitCenter">
-                </ImageButton>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="25dp">
-                <ImageButton
-                    android:id="@+id/movies"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/movies"
-                    android:layout_margin="10dp"
-                    android:scaleType="fitCenter">
-                </ImageButton>
-                <ImageButton
-                    android:id="@+id/parkings"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/parking"
-                    android:layout_margin="10dp"
-                    android:scaleType="fitCenter">
-                </ImageButton>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_margin="25dp">
-                <ImageButton
-                    android:id="@+id/hotels"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/hotels"
-                    android:layout_margin="10dp"
-                    android:scaleType="fitCenter">
-                </ImageButton>
-                <ImageButton
-                    android:id="@+id/transports"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/transport"
-                    android:layout_margin="10dp"
-                    android:scaleType="fitCenter">
-                </ImageButton>
-            </LinearLayout>
+            android:orientation="horizontal"
+            android:layout_margin="25dp">
+            <ImageButton
+                android:id="@+id/businesses"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/business"
+                android:layout_margin="10dp"
+                android:scaleType="fitCenter">
+            </ImageButton>
+            <ImageButton
+                android:id="@+id/restaurants"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/restaurants"
+                android:layout_margin="10dp"
+                android:scaleType="fitCenter">
+            </ImageButton>
         </LinearLayout>
-    </ScrollView>
-</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="25dp">
+            <ImageButton
+                android:id="@+id/movies"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/movies"
+                android:layout_margin="10dp"
+                android:scaleType="fitCenter">
+            </ImageButton>
+            <ImageButton
+                android:id="@+id/parkings"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/parking"
+                android:layout_margin="10dp"
+                android:scaleType="fitCenter">
+            </ImageButton>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="25dp">
+            <ImageButton
+                android:id="@+id/hotels"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/hotels"
+                android:layout_margin="10dp"
+                android:scaleType="fitCenter">
+            </ImageButton>
+            <ImageButton
+                android:id="@+id/transports"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/transport"
+                android:layout_margin="10dp"
+                android:scaleType="fitCenter">
+            </ImageButton>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
