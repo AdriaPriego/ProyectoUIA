@@ -20,47 +20,62 @@
                 android:layout_width="160dp"
                 android:layout_height="230dp"
                 android:scaleType="fitCenter"
-                android:src="@drawable/elespiaingles">
+                android:src="@drawable/elespiaingles"
+                android:padding="5dp"
+                android:layout_gravity="center_vertical">
             </ImageView>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/elespiaingles"
-                    android:textSize="12sp">
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/elespiainglesDurada"
-                    android:textSize="12sp">
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/elespiainglesDirector"
-                    android:textSize="12sp">
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/elespiainglesActors"
-                    android:textSize="12sp">
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/elespiainglesQualificacio"
-                    android:textSize="12sp">
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/elespiainglesGenere"
-                    android:textSize="12sp">
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
                 </TextView>
             </LinearLayout>
         </LinearLayout>
@@ -74,50 +89,58 @@
                 android:layout_width="160dp"
                 android:layout_height="230dp"
                 android:scaleType="fitCenter"
-                android:src="@drawable/elespiaingles">
+                android:src="@drawable/patrullacanina"
+                android:padding="5dp"
+                android:layout_gravity="center_vertical">
             </ImageView>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/elespiaingles"
-                    android:textSize="12sp">
+                    android:text="@string/LaPatrullaCanina"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/elespiainglesDurada"
-                    android:textSize="12sp">
+                    android:text="@string/PatrullaDurada"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/elespiainglesDirector"
-                    android:textSize="12sp">
+                    android:text="@string/PatrullaDirector"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/elespiainglesActors"
-                    android:textSize="12sp">
+                    android:text="@string/PatrullaQualificacio"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/elespiainglesQualificacio"
-                    android:textSize="12sp">
-                </TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/elespiainglesGenere"
-                    android:textSize="12sp">
+                    android:text="@string/PatrullaGenere"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
                 </TextView>
             </LinearLayout>
-        </LinearLayout><LinearLayout
+        </LinearLayout>
+        <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -127,49 +150,265 @@
             android:layout_width="160dp"
             android:layout_height="230dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/elespiaingles">
+            android:src="@drawable/patron"
+            android:padding="5dp"
+            android:layout_gravity="center_vertical">
         </ImageView>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/elespiaingles"
-                android:textSize="12sp">
+                android:text="@string/Patron"
+                android:textSize="12sp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="5dp">
             </TextView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/elespiainglesDurada"
-                android:textSize="12sp">
+                android:text="@string/PatronDurada"
+                android:textSize="12sp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="5dp">
             </TextView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/elespiainglesDirector"
-                android:textSize="12sp">
+                android:text="@string/PatronDirector"
+                android:textSize="12sp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="5dp">
             </TextView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/elespiainglesActors"
-                android:textSize="12sp">
+                android:text="@string/PatronActors"
+                android:textSize="12sp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="5dp">
             </TextView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/elespiainglesQualificacio"
-                android:textSize="12sp">
+                android:text="@string/PatronQualificacio"
+                android:textSize="12sp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="5dp">
             </TextView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/elespiainglesGenere"
-                android:textSize="12sp">
+                android:text="@string/PatronGenere"
+                android:textSize="12sp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="5dp">
             </TextView>
             </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            tools:ignore="ContentDescription">
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="230dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/elespiaingles"
+                android:padding="5dp"
+                android:layout_gravity="center_vertical">
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/elespiaingles"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/elespiainglesDurada"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/elespiainglesDirector"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/elespiainglesActors"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/elespiainglesQualificacio"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/elespiainglesGenere"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            tools:ignore="ContentDescription">
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="230dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/patrullacanina"
+                android:padding="5dp"
+                android:layout_gravity="center_vertical">
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/LaPatrullaCanina"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PatrullaDurada"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PatrullaDirector"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PatrullaQualificacio"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PatrullaGenere"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            tools:ignore="ContentDescription">
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="230dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/patron"
+                android:padding="5dp"
+                android:layout_gravity="center_vertical">
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Patron"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PatronDurada"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PatronDirector"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PatronActors"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PatronQualificacio"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PatronGenere"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp">
+                </TextView>
+            </LinearLayout>
+
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
