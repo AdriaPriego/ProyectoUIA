@@ -104,6 +104,5 @@
                 </TextView>
             </LinearLayout>
         </LinearLayout>
-
     </LinearLayout>
 </ScrollView>
