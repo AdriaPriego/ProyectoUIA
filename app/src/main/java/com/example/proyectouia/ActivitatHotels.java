@@ -41,28 +41,48 @@ public class ActivitatHotels extends AppCompatActivity implements AdapterView.On
     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
         String valor;
         valor = (String) adapterView.getSelectedItem();
+        FragmentManager fm = getSupportFragmentManager();
+        BlankFragment1Hotels fragment1 = new BlankFragment1Hotels();
+
+        FragmentManager fm2 = getSupportFragmentManager();
+        BlankFragment2Hotels fragment2 = new BlankFragment2Hotels();
+
+        FragmentManager fm3 = getSupportFragmentManager();
+        BlankFragment3Hotels fragment3 = new BlankFragment3Hotels();
         switch (valor)
         {
             case "1":
-                //TODO: Llamar al fragment de hoteles 1 estrella
-                FragmentManager fm = getSupportFragmentManager();
-                BlankFragment1Hotels fragment1 = new BlankFragment1Hotels();
-                fm.beginTransaction().add(R.id.contenidorHotels, fragment1).commit();
+                if(getSupportFragmentManager().findFragmentById(R.id.container) != null){
+                    getSupportFragmentManager().beginTransaction().remove(getSupportFragmentManager().findFragmentById(R.id.contenidorHotels)).commit();
+                }
+                else{
+                    fm.beginTransaction().add(R.id.contenidorHotels, fragment1).commit();
+                }
+                ///Llama al fragment de hoteles 1 estrella
+                /*getSupportFragmentManager().beginTransaction().remove(fragment3).commit();
+                getSupportFragmentManager().beginTransaction().remove(fragment2).commit();*/
                 break;
             case "2":
-                //TODO: Llamar al fragment de hoteles 2 estrellas
-                FragmentManager fm2 = getSupportFragmentManager();
-                BlankFragment2Hotels fragment2 = new BlankFragment2Hotels();
-                fm2.beginTransaction().add(R.id.contenidorHotels, fragment2).commit();
+                /// Llama al fragment de hoteles 2 estrellas
+                if(getSupportFragmentManager().findFragmentById(R.id.container) != null){
+                    getSupportFragmentManager().beginTransaction().remove(getSupportFragmentManager().findFragmentById(R.id.contenidorHotels)).commit();
+                }
+                else{
+                    fm2.beginTransaction().add(R.id.contenidorHotels, fragment2).commit();
+                }
+                /*getSupportFragmentManager().beginTransaction().remove(fragment1).commit();
+                getSupportFragmentManager().beginTransaction().remove(fragment3).commit();*/
                 break;
             case "3":
-                //TODO: Llamar al fragment de hoteles 3 estrellas
-                FragmentManager fm3 = getSupportFragmentManager();
-                ///OPCIONAL MIRA SI ESTA VACIO, SI LO ESTA LE PONE UN FRAGMENT
-                if (fm3.findFragmentById(R.id.contenidorHotels) == null) {
-                    BlankFragment3Hotels fragment3 = new BlankFragment3Hotels();
+                /// Llamar al fragment de hoteles 3 estrellas
+                if(getSupportFragmentManager().findFragmentById(R.id.container) != null){
+                    getSupportFragmentManager().beginTransaction().remove(getSupportFragmentManager().findFragmentById(R.id.contenidorHotels)).commit();
+                }
+                else{
                     fm3.beginTransaction().add(R.id.contenidorHotels, fragment3).commit();
                 }
+                /*getSupportFragmentManager().beginTransaction().remove(fragment1).commit();
+                getSupportFragmentManager().beginTransaction().remove(fragment2).commit();*/
                 break;
             default:
                 break;

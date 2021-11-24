@@ -118,7 +118,7 @@
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/hotel8"
+            android:src="@drawable/hotel9"
             android:padding="5dp"
             android:layout_gravity="center_vertical">
         </ImageView>
