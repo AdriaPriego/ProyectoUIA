@@ -30,4 +30,6 @@
     <string name="PatronGenere"><b>Gènere:</b>Drama - Comedia</string>
     <string name="titolTaxis">TAXIS GRANOLLERS</string>
     <string name="descripTaxis">Servei de taxi 24 hores. Nacional e internacional</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
