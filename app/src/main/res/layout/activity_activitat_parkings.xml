@@ -13,53 +13,31 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:orientation="horizontal"
             tools:ignore="ContentDescription">
             <ImageView
                 android:layout_width="160dp"
-                android:layout_height="230dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
                 android:scaleType="fitCenter"
-                android:src="@drawable/elespiaingles">
+                android:src="@drawable/escolapi">
             </ImageView>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:orientation="vertical">
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/elespiaingles"
-                    android:textSize="12sp">
+                    android:text="@string/escolapiBlau"
+                    android:textSize="14sp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/elespiainglesDurada"
-                    android:textSize="12sp">
-                </TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/elespiainglesDirector"
-                    android:textSize="12sp">
-                </TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/elespiainglesActors"
-                    android:textSize="12sp">
-                </TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/elespiainglesQualificacio"
-                    android:textSize="12sp">
-                </TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/elespiainglesGenere"
+                    android:text="@string/escolapiBlauPlaces"
                     android:textSize="12sp">
                 </TextView>
             </LinearLayout>
@@ -67,109 +45,65 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:orientation="horizontal"
             tools:ignore="ContentDescription">
             <ImageView
                 android:layout_width="160dp"
-                android:layout_height="230dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
                 android:scaleType="fitCenter"
-                android:src="@drawable/elespiaingles">
+                android:src="@drawable/teatreauditori">
             </ImageView>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/elespiaingles"
-                    android:textSize="12sp">
+                    android:text="@string/teatreAuditori"
+                    android:textSize="14sp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/elespiainglesDurada"
-                    android:textSize="12sp">
-                </TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/elespiainglesDirector"
-                    android:textSize="12sp">
-                </TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/elespiainglesActors"
-                    android:textSize="12sp">
-                </TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/elespiainglesQualificacio"
-                    android:textSize="12sp">
-                </TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/elespiainglesGenere"
+                    android:text="@string/teatreAuditoriPlaces"
                     android:textSize="12sp">
                 </TextView>
             </LinearLayout>
-        </LinearLayout><LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal"
-        tools:ignore="ContentDescription">
-        <ImageView
-            android:layout_width="160dp"
-            android:layout_height="230dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/elespiaingles">
-        </ImageView>
+        </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <TextView
+            android:orientation="horizontal"
+            tools:ignore="ContentDescription">
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/corona">
+            </ImageView>
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/elespiaingles"
-                android:textSize="12sp">
-            </TextView>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/elespiainglesDurada"
-                android:textSize="12sp">
-            </TextView>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/elespiainglesDirector"
-                android:textSize="12sp">
-            </TextView>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/elespiainglesActors"
-                android:textSize="12sp">
-            </TextView>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/elespiainglesQualificacio"
-                android:textSize="12sp">
-            </TextView>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/elespiainglesGenere"
-                android:textSize="12sp">
-            </TextView>
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/corona"
+                    android:textSize="14sp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/coronaPlaces"
+                    android:textSize="12sp">
+                </TextView>
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
+
     </LinearLayout>
 </ScrollView>

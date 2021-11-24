@@ -6,5 +6,10 @@
     <string name="elespiainglesActors"><b>Director:</b>Benedict Cumberbatch , Rachel Brosnahan , Merab Ninidze , Jessie Buckley</string>
     <string name="elespiainglesQualificacio"><b>Qualificació:</b>12 anys</string>
     <string name="elespiainglesGenere"><b>Gènere:</b>Drama - Thriller</string>
-
+    <string name="escolapiBlau"><b>Escolapi Blau</b></string>
+    <string name="escolapiBlauPlaces"><b>Places disponibles: </b>42\n<b>Places totals: </b>50</string>
+    <string name="teatreAuditori"><b>Teatre Auditori</b></string>
+    <string name="teatreAuditoriPlaces"><b>Places disponibles: </b>38\n<b>Places totals: </b>40</string>
+    <string name="corona"><b>Corona</b></string>
+    <string name="coronaPlaces"><b>Places disponibles: </b>23\n<b>Places totals: </b>60</string>
 </resources>

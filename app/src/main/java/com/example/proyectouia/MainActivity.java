@@ -13,13 +13,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        businesses=findViewById(R.id.businesses);businesses.setOnClickListener(this);
-        restaurants=findViewById(R.id.restaurants);restaurants.setOnClickListener(this);
-        movies=findViewById(R.id.movies);movies.setOnClickListener(this);
-        parkings=findViewById(R.id.parkings);parkings.setOnClickListener(this);
-        hotels=findViewById(R.id.hotels);hotels.setOnClickListener(this);
-        transports=findViewById(R.id.transports);transports.setOnClickListener(this);
 
+        businesses=findViewById(R.id.businesses); businesses.setOnClickListener(this);
+        restaurants=findViewById(R.id.restaurants); restaurants.setOnClickListener(this);
+        movies=findViewById(R.id.movies); movies.setOnClickListener(this);
+        parkings=findViewById(R.id.parkings); parkings.setOnClickListener(this);
+        hotels=findViewById(R.id.hotels); hotels.setOnClickListener(this);
+        transports=findViewById(R.id.transports); transports.setOnClickListener(this);
     }
 
     @Override
