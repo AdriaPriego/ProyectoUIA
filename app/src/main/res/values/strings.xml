@@ -3,8 +3,18 @@
     <string name="elespiaingles">Durant la guerra freda entre els Estats Units i Rússia, l\'enginyer Greville Wynne (Benedict Cumberbatch) s\'infiltra com espia al MI5, servei d\'intel·ligència britànic. Quan la crisi dels míssils cubans promet inclinar la balança a favor del país soviètic, Wynne començarà a treballar amb la CIA per filtrar informació sobre el pla que tenen en marxa els russos i així evitar una catàstrofe.</string>
     <string name="elespiainglesDurada"><b>Durada:</b>111\'</string>
     <string name="elespiainglesDirector"><b>Director:</b>Dominic Cooke</string>
-    <string name="elespiainglesActors"><b>Director:</b>Benedict Cumberbatch , Rachel Brosnahan , Merab Ninidze , Jessie Buckley</string>
+    <string name="elespiainglesActors"><b>Actors:</b>Benedict Cumberbatch , Rachel Brosnahan , Merab Ninidze , Jessie Buckley</string>
     <string name="elespiainglesQualificacio"><b>Qualificació:</b>12 anys</string>
     <string name="elespiainglesGenere"><b>Gènere:</b>Drama - Thriller</string>
-
+    <string name="LaPatrullaCanina">La Patrulla Canina està en ratxa. Quan Humdinger, el seu major rival, esdevé alcalde de la propera Ciutat Aventura i comença a causar estralls, Ryder i els heroics cadells es posen en marxa per fer front a aquest nou repte. Mentre un dels cadells ha d\'enfrontar-se al seu passat a Ciutat Aventura, l\'equip troba ajuda en una nova aliada, la intel·ligent gosseta salsitxa Liberty. Junts i armats amb nous i emocionants artefactes i equips, la Patrulla Canina lluita per salvar els ciutadans de Ciutat Aventura.</string>
+    <string name="PatrullaDurada"><b>Durada:</b>86\'</string>
+    <string name="PatrullaDirector"><b>Director:</b>Cal Brunker</string>
+    <string name="PatrullaQualificacio"><b>Qualificació:</b>Apta</string>
+    <string name="PatrullaGenere"><b>Gènere:</b>Animació</string>
+    <string name="Patron">Bàscules Blanco, una empresa de producció de balances industrials en una ciutat de províncies, espera la visita d\'una comissió de la qual depèn l\'obtenció d\'un premi local a l\'Excel·lència Empresarial: les coses han de ser perfectes per a aquest moment. No obstant això, tot sembla confabular-se en contra. En el poc temps de què disposa, Blanco (Bardem) intenta tornar a la seva empresa l\'equilibri perdut: tracta de resoldre els problemes dels seus empleats, creuant per això totes les línies imaginables.</string>
+    <string name="PatronDurada"><b>Durada:</b>115\'</string>
+    <string name="PatronDirector"><b>Director:</b>Fernando León de Aranoa</string>
+    <string name="PatronActors"><b>Actors:</b>Javier Bardem , Manolo Solo , Almudena Amor</string>
+    <string name="PatronQualificacio"><b>Qualificació:</b>12 anys</string>
+    <string name="PatronGenere"><b>Gènere:</b>Drama - Comedia</string>
 </resources>
