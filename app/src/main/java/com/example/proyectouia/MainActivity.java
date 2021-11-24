@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         parkings=findViewById(R.id.parkings);parkings.setOnClickListener(this);
         hotels=findViewById(R.id.hotels);hotels.setOnClickListener(this);
         transports=findViewById(R.id.transports);transports.setOnClickListener(this);
-
     }
 
     @Override

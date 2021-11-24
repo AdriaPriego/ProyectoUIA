@@ -1,9 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#1E1E1E"
-    tools:context=".ActivitatTransport">
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    tools:context=".ActivitatTransport"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="INFORMACIÓ DE LÍNIES"
+            android:textSize="20dp"
+            android:textAlignment="center">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/infoLineas"
+            android:textAlignment="center"
+            android:textSize="18dp">
+        </TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/linea1"
+                android:layout_gravity="center"
+                android:maxHeight="250dp"
+                android:layout_weight="1">
+            </ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/linea2"
+                android:layout_gravity="center"
+                android:maxHeight="250dp"
+                android:layout_weight="1">
+            </ImageView>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TAXIS GRANOLLERS"
+            android:textSize="20dp"
+            android:textAlignment="center">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Servei de taxi 24 hores. Nacional e internacional"
+            android:textAlignment="center"
+            android:textSize="18dp">
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/taxilogo"
+                android:layout_gravity="center">
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/infoTaxis"
+                    android:textSize="15sp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/infoTaxisLocalitzacio"
+                    android:textSize="15sp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/infoHorarisTaxis"
+                    android:textSize="15sp">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/taxi2"
+            android:layout_marginTop="10dp">
+        </ImageView>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

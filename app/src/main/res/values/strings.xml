@@ -6,5 +6,9 @@
     <string name="elespiainglesActors"><b>Director:</b>Benedict Cumberbatch , Rachel Brosnahan , Merab Ninidze , Jessie Buckley</string>
     <string name="elespiainglesQualificacio"><b>Qualificació:</b>12 anys</string>
     <string name="elespiainglesGenere"><b>Gènere:</b>Drama - Thriller</string>
+    <string name="infoLineas">Consulta els horaris complets de totes les línies de Transgran, visualitzar el recorregut a Google Maps i les seves parades i informa’t de les incidències i alteracions del servei.</string>
+    <string name="infoTaxis"><b>Contacta amb nosaltres:</b> Telf: 93 870 30 28 \n taxisgranollers.com \n Mándanos un mail</string>
+    <string name="infoTaxisLocalitzacio"><b>On estem </b> Carrer de Girona, 2 08402 Granollers Barcelona</string>
+    <string name="infoHorarisTaxis">Horaris 24 hores els 365 dies</string>
 
 </resources>
