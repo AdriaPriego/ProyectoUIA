@@ -50,16 +50,18 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="TAXIS GRANOLLERS"
+            android:text="@string/titolTaxis"
             android:textSize="20dp"
-            android:textAlignment="center">
+            android:textAlignment="center"
+            android:layout_margin="10dp">
         </TextView>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Servei de taxi 24 hores. Nacional e internacional"
+            android:text="@string/descripTaxis"
             android:textAlignment="center"
-            android:textSize="18dp">
+            android:textSize="18dp"
+            android:layout_margin="10dp">
         </TextView>
         <LinearLayout
             android:layout_width="match_parent"
@@ -69,7 +71,8 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/taxilogo"
-                android:layout_gravity="center">
+                android:layout_gravity="center"
+                android:layout_margin="10dp">
             </ImageView>
             <LinearLayout
                 android:layout_width="match_parent"

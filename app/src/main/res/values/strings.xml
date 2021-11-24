@@ -28,4 +28,6 @@
     <string name="PatronActors"><b>Actors:</b>Javier Bardem , Manolo Solo , Almudena Amor</string>
     <string name="PatronQualificacio"><b>Qualificació:</b>12 anys</string>
     <string name="PatronGenere"><b>Gènere:</b>Drama - Comedia</string>
+    <string name="titolTaxis">TAXIS GRANOLLERS</string>
+    <string name="descripTaxis">Servei de taxi 24 hores. Nacional e internacional</string>
 </resources>
