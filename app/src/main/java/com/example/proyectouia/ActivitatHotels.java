@@ -26,6 +26,7 @@ public class ActivitatHotels extends AppCompatActivity implements AdapterView.On
     }
     private void agregandoValores()
     {
+        lista.add("0");
         lista.add("1");
         lista.add("2");
         lista.add("3");
@@ -52,37 +53,31 @@ public class ActivitatHotels extends AppCompatActivity implements AdapterView.On
         switch (valor)
         {
             case "1":
-                if(getSupportFragmentManager().findFragmentById(R.id.container) != null){
+                if(getSupportFragmentManager().findFragmentById(R.id.contenidorHotels) != null){
                     getSupportFragmentManager().beginTransaction().remove(getSupportFragmentManager().findFragmentById(R.id.contenidorHotels)).commit();
+                    fm.beginTransaction().add(R.id.contenidorHotels, fragment1).commit();
                 }
                 else{
                     fm.beginTransaction().add(R.id.contenidorHotels, fragment1).commit();
                 }
-                ///Llama al fragment de hoteles 1 estrella
-                /*getSupportFragmentManager().beginTransaction().remove(fragment3).commit();
-                getSupportFragmentManager().beginTransaction().remove(fragment2).commit();*/
                 break;
             case "2":
-                /// Llama al fragment de hoteles 2 estrellas
-                if(getSupportFragmentManager().findFragmentById(R.id.container) != null){
+                if(getSupportFragmentManager().findFragmentById(R.id.contenidorHotels) != null){
                     getSupportFragmentManager().beginTransaction().remove(getSupportFragmentManager().findFragmentById(R.id.contenidorHotels)).commit();
+                    fm2.beginTransaction().add(R.id.contenidorHotels, fragment2).commit();
                 }
                 else{
                     fm2.beginTransaction().add(R.id.contenidorHotels, fragment2).commit();
                 }
-                /*getSupportFragmentManager().beginTransaction().remove(fragment1).commit();
-                getSupportFragmentManager().beginTransaction().remove(fragment3).commit();*/
                 break;
             case "3":
-                /// Llamar al fragment de hoteles 3 estrellas
-                if(getSupportFragmentManager().findFragmentById(R.id.container) != null){
+                if(getSupportFragmentManager().findFragmentById(R.id.contenidorHotels) != null){
                     getSupportFragmentManager().beginTransaction().remove(getSupportFragmentManager().findFragmentById(R.id.contenidorHotels)).commit();
+                    fm3.beginTransaction().add(R.id.contenidorHotels, fragment3).commit();
                 }
                 else{
                     fm3.beginTransaction().add(R.id.contenidorHotels, fragment3).commit();
                 }
-                /*getSupportFragmentManager().beginTransaction().remove(fragment1).commit();
-                getSupportFragmentManager().beginTransaction().remove(fragment2).commit();*/
                 break;
             default:
                 break;

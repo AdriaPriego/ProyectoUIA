@@ -27,12 +27,12 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Hotel Paco olivares">
+                android:text="@string/hotel7titol">
             </TextView>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Adreça"
+                android:text="@string/textaadreçahotels"
                 android:textSize="18sp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginEnd="5dp">
@@ -40,7 +40,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Calle 3 pinos"
+                android:text="@string/hotel7localitzacio"
                 android:textSize="15sp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginEnd="5dp">
@@ -48,7 +48,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Valoran's!"
+                android:text="@string/textvaloraciohotels"
                 android:textSize="18sp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginEnd="5dp">
@@ -57,6 +57,12 @@
                 android:layout_width="150dp"
                 android:layout_height="wrap_content">
             </RatingBar>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textbotohotels"
+                android:id="@+id/b1">
+            </Button>
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
@@ -81,7 +87,12 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Adreça"
+                android:text="@string/hotel8titol">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textaadreçahotels"
                 android:textSize="18sp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginEnd="5dp">
@@ -89,7 +100,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Calle 3 pinos"
+                android:text="@string/hotel8localitzacio"
                 android:textSize="15sp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginEnd="5dp">
@@ -97,7 +108,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Valoran's!"
+                android:text="@string/textvaloraciohotels"
                 android:textSize="18sp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginEnd="5dp">
@@ -106,6 +117,12 @@
                 android:layout_width="150dp"
                 android:layout_height="wrap_content">
             </RatingBar>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textbotohotels"
+                android:id="@+id/b2">
+            </Button>
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
@@ -130,7 +147,12 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Adreça"
+                android:text="@string/hotel9titol">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textaadreçahotels"
                 android:textSize="18sp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginEnd="5dp">
@@ -138,7 +160,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Calle 3 pinos"
+                android:text="@string/hotel9localitzacio"
                 android:textSize="15sp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginEnd="5dp">
@@ -146,7 +168,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Valoran's!"
+                android:text="@string/textvaloraciohotels"
                 android:textSize="18sp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginEnd="5dp">
@@ -155,6 +177,12 @@
                 android:layout_width="150dp"
                 android:layout_height="wrap_content">
             </RatingBar>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textbotohotels"
+                android:id="@+id/b3">
+            </Button>
         </LinearLayout>
     </LinearLayout>
 

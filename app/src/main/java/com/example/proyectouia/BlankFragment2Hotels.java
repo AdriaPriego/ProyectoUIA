@@ -1,5 +1,7 @@
 package com.example.proyectouia;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -60,6 +63,30 @@ public class BlankFragment2Hotels extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_blank_fragment2_hotels, container, false);
+        Button b1= (Button) view.findViewById(R.id.b1);
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentTel= new Intent(Intent.ACTION_VIEW, Uri.parse("tel:923202202"));
+                startActivity(intentTel);
+            }
+        });
+        Button b2=(Button) view.findViewById(R.id.b2);
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentTel= new Intent(Intent.ACTION_VIEW, Uri.parse("tel:900112112"));
+                startActivity(intentTel);
+            }
+        });
+        Button b3=(Button) view.findViewById(R.id.b3);
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentTel= new Intent(Intent.ACTION_VIEW, Uri.parse("tel:998304304"));
+                startActivity(intentTel);
+            }
+        });
         return view;
     }
 }
