@@ -1,21 +1,20 @@
 package com.example.proyectouia;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.FragmentManager;
-
-import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class ActivitatHotels extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     Spinner spinnerHotel;
-    private ArrayList<String> lista = new ArrayList<String>();
+    private final ArrayList<String> lista = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +33,7 @@ public class ActivitatHotels extends AppCompatActivity implements AdapterView.On
     private void darClic()
     {
         spinnerHotel.setOnItemSelectedListener(this);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, lista);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, lista);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerHotel.setAdapter(adapter);
     }
@@ -54,30 +53,21 @@ public class ActivitatHotels extends AppCompatActivity implements AdapterView.On
         {
             case "1":
                 if(getSupportFragmentManager().findFragmentById(R.id.contenidorHotels) != null){
-                    getSupportFragmentManager().beginTransaction().remove(getSupportFragmentManager().findFragmentById(R.id.contenidorHotels)).commit();
-                    fm.beginTransaction().add(R.id.contenidorHotels, fragment1).commit();
+                    getSupportFragmentManager().beginTransaction().remove(Objects.requireNonNull(getSupportFragmentManager().findFragmentById(R.id.contenidorHotels))).commit();
                 }
-                else{
-                    fm.beginTransaction().add(R.id.contenidorHotels, fragment1).commit();
-                }
+                fm.beginTransaction().add(R.id.contenidorHotels, fragment1).commit();
                 break;
             case "2":
                 if(getSupportFragmentManager().findFragmentById(R.id.contenidorHotels) != null){
-                    getSupportFragmentManager().beginTransaction().remove(getSupportFragmentManager().findFragmentById(R.id.contenidorHotels)).commit();
-                    fm2.beginTransaction().add(R.id.contenidorHotels, fragment2).commit();
+                    getSupportFragmentManager().beginTransaction().remove(Objects.requireNonNull(getSupportFragmentManager().findFragmentById(R.id.contenidorHotels))).commit();
                 }
-                else{
-                    fm2.beginTransaction().add(R.id.contenidorHotels, fragment2).commit();
-                }
+                fm2.beginTransaction().add(R.id.contenidorHotels, fragment2).commit();
                 break;
             case "3":
                 if(getSupportFragmentManager().findFragmentById(R.id.contenidorHotels) != null){
-                    getSupportFragmentManager().beginTransaction().remove(getSupportFragmentManager().findFragmentById(R.id.contenidorHotels)).commit();
-                    fm3.beginTransaction().add(R.id.contenidorHotels, fragment3).commit();
+                    getSupportFragmentManager().beginTransaction().remove(Objects.requireNonNull(getSupportFragmentManager().findFragmentById(R.id.contenidorHotels))).commit();
                 }
-                else{
-                    fm3.beginTransaction().add(R.id.contenidorHotels, fragment3).commit();
-                }
+                fm3.beginTransaction().add(R.id.contenidorHotels, fragment3).commit();
                 break;
             default:
                 break;
