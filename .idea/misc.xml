@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Unai/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_1.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/Unai/Documents/GitHub/ProyectoUIA/app/src/main/res/layout/activity_activitat_businesses.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/Unai/Documents/GitHub/ProyectoUIA/app/src/main/res/layout/activity_activitat_hotels.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/Unai/Documents/GitHub/ProyectoUIA/app/src/main/res/layout/activity_activitat_movies.xml" value="0.23645833333333333" />
@@ -10,6 +11,9 @@
         <entry key="..\:/Users/Unai/Documents/GitHub/ProyectoUIA/app/src/main/res/layout/activity_activitat_rest.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/Unai/Documents/GitHub/ProyectoUIA/app/src/main/res/layout/activity_activitat_transport.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/Unai/Documents/GitHub/ProyectoUIA/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Unai/Documents/GitHub/ProyectoUIA/app/src/main/res/layout/fragment_blank_fragment1_hotels.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Unai/Documents/GitHub/ProyectoUIA/app/src/main/res/layout/fragment_business1.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Unai/Documents/GitHub/ProyectoUIA/app/src/main/res/layout/fragment_business2.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/adria/AndroidStudioProjects/ProyectoUIA/app/src/main/res/layout/activity_activitat_hotels.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/adria/AndroidStudioProjects/ProyectoUIA/app/src/main/res/layout/activity_activitat_movies.xml" value="0.15" />
         <entry key="..\:/Users/adria/AndroidStudioProjects/ProyectoUIA/app/src/main/res/layout/activity_activitat_parkings.xml" value="0.20416666666666666" />
@@ -17,13 +21,8 @@
         <entry key="..\:/Users/adria/AndroidStudioProjects/ProyectoUIA/app/src/main/res/layout/activity_activitat_transport.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/adria/AndroidStudioProjects/ProyectoUIA/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/adria/AndroidStudioProjects/ProyectoUIA/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
-        <entry key="..\:/Users/usuario/Desktop/Android/ProyectoUIA/app/src/main/res/layout/activity_activitat_hotels.xml" value="0.22644927536231885" />
         <entry key="..\:/Users/usuario/Desktop/Android/ProyectoUIA/app/src/main/res/layout/activity_activitat_movies.xml" value="0.13020833333333334" />
-        <entry key="..\:/Users/usuario/Desktop/Android/ProyectoUIA/app/src/main/res/layout/activity_activitat_transport.xml" value="0.23550724637681159" />
         <entry key="..\:/Users/usuario/Desktop/Android/ProyectoUIA/app/src/main/res/layout/activity_main.xml" value="0.12360688956433637" />
-        <entry key="..\:/Users/usuario/Desktop/Android/ProyectoUIA/app/src/main/res/layout/fragment_blank_fragment1_hotels.xml" value="0.22644927536231885" />
-        <entry key="..\:/Users/usuario/Desktop/Android/ProyectoUIA/app/src/main/res/layout/fragment_blank_fragment2_hotels.xml" value="0.22644927536231885" />
-        <entry key="..\:/Users/usuario/Desktop/Android/ProyectoUIA/app/src/main/res/layout/fragment_blank_fragment3_hotels.xml" value="0.22644927536231885" />
       </map>
     </option>
   </component>

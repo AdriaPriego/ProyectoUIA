@@ -30,7 +30,6 @@
     <string name="PatronGenere"><b>Gènere:</b>Drama - Comedia</string>
     <string name="titolTaxis">TAXIS GRANOLLERS</string>
     <string name="descripTaxis">Servei de taxi 24 hores. Nacional e internacional</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hotel1titol">Hotel Arc La Rambla</string>
     <string name="hotel1localitzacio">La Rambla 19, 08002 Barcelona España</string>
@@ -39,8 +38,8 @@
     <string name="textaadreçahotels">Adreça</string>
     <string name="hotel2titol">NH Collection Barcelona Pódium</string>
     <string name="hotel3titol">H10 Madison</string>
-    <string name="hotel3localitzacio">C/ Dr. Joaquim Pou, 2-4-6, 08002 Barcelona España</string>
-    <string name="hotel2localitzacio">Bailén, 4-6, 08010 Barcelona España</string>
+    <string name="hotel3localitzacio">C/ Dr. Joaquim Pou, 2–4–6, 08002 Barcelona España</string>
+    <string name="hotel2localitzacio">Bailén, 4–6, 08010 Barcelona España</string>
     <string name="hotel4titol">el Jardi</string>
     <string name="hotel4localitzacio">Placa Sant Josep Oriol 1 Barri Gòtic, 08002 Barcelona España</string>
     <string name="hotel5titol">Hotel Medicis</string>
@@ -53,4 +52,7 @@
     <string name="hotel8localitzacio">Carrer Nou de La Rambla 50, 08001 Barcelona España</string>
     <string name="hotel7titol">Hotel Ciutat de Sant Adria</string>
     <string name="hotel7localitzacio">Santa Caterina, 38 Sant Adria del Besos, 08003 Barcelona España</string>
+    <string name="sector">Escull el sector</string>
+    <string name="peluqueria1">Xavier Arcarons Perruquers</string>
+    <string name="adreça1">Carrer Príncep de Viana, nº 6, 08401 Granollers</string>
 </resources>
