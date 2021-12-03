@@ -52,7 +52,20 @@
     <string name="hotel8localitzacio">Carrer Nou de La Rambla 50, 08001 Barcelona España</string>
     <string name="hotel7titol">Hotel Ciutat de Sant Adria</string>
     <string name="hotel7localitzacio">Santa Caterina, 38 Sant Adria del Besos, 08003 Barcelona España</string>
+    <string name="la_cookessa_bio_granollers">La Cookessa Bio Granollers</string>
+    <string name="cookessaAdreça">Carrer de Ponent, 25, 08401 Granollers, Barcelona</string>
+    <string name="anima_de_granollers">Ànima de Granollers</string>
+    <string name="adrecamirallet">08402, Plaça de la Porxada, 39, 08401 Granollers, Barcelona</string>
+    <string name="el_mirallet">El Mirallet</string>
+    <string name="bistrotaliano">El bistro\' italiano</string>
+    <string name="adrecabistro">Passeig Francesc Macià, 19, LOCAL 3, 08187 El Rieral, Barcelona</string>
+    <string name="il_sapore_italiano">Il Sapore Italiano</string>
+    <string name="adrecaSaocre">Carrer de Ponent, 41, 08401 Granollers, Barcelona</string>
+    <string name="mezzaubi">Carrer de Foment, 2, 08402 Granollers, Barcelona</string>
+    <string name="la_mezza_luna">La Mezza Luna</string>
     <string name="sector">Escull el sector</string>
     <string name="peluqueria1">Xavier Arcarons Perruquers</string>
     <string name="adreça1">Carrer Príncep de Viana, nº 6, 08401 Granollers</string>
+    <string name="tria_la_qualitat_dels_hotels">Tria la qualitat dels hotels</string>
+    <string name="tria_la_qualitat_dels_restaurants">Tria la qualitat dels Restaurants</string>
 </resources>
