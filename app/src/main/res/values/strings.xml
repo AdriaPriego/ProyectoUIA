@@ -68,4 +68,10 @@
     <string name="adreça1">Carrer Príncep de Viana, nº 6, 08401 Granollers</string>
     <string name="tria_la_qualitat_dels_hotels">Tria la qualitat dels hotels</string>
     <string name="tria_la_qualitat_dels_restaurants">Tria la qualitat dels Restaurants</string>
+    <string name="japo1">Robata Restaurant Japonés</string>
+    <string name="japo1adreca">Carrer d\'Enric Granados, 55, 08008 Barcelona</string>
+    <string name="japo2">Kurai Restaurante Japonés</string>
+    <string name="japo2adreca">Carrer de Tarragona, 99, 08014 Barcelona</string>
+    <string name="japo3">Restaurante Shunka</string>
+    <string name="japo3adreca">Carrer dels Sagristans, 5, 08002 Barcelona</string>
 </resources>

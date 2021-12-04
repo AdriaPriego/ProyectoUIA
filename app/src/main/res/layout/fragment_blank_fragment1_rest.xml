@@ -15,7 +15,7 @@
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/CookessaBio"
+            android:src="@drawable/cookessabio"
             android:padding="5dp"
             android:layout_gravity="center_vertical">
         </ImageView>
@@ -167,7 +167,7 @@
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/animaVeg"
+            android:src="@drawable/animaveg"
             android:padding="5dp"
             android:layout_gravity="center_vertical">
         </ImageView>

@@ -15,7 +15,7 @@
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/bistro"
+            android:src="@drawable/robata"
             android:padding="5dp"
             android:layout_gravity="center_vertical">
         </ImageView>
@@ -27,7 +27,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/bistrotaliano">
+                android:text="@string/japo1">
             </TextView>
             <TextView
                 android:layout_width="match_parent"
@@ -40,7 +40,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/adrecabistro"
+                android:text="@string/japo1adreca"
                 android:textSize="15sp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginEnd="5dp">
@@ -91,7 +91,7 @@
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/sapore"
+            android:src="@drawable/kurai"
             android:padding="5dp"
             android:layout_gravity="center_vertical">
         </ImageView>
@@ -103,7 +103,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/il_sapore_italiano">
+                android:text="@string/japo2">
             </TextView>
             <TextView
                 android:layout_width="match_parent"
@@ -116,7 +116,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/adrecaSaocre"
+                android:text="@string/japo2adreca"
                 android:textSize="15sp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginEnd="5dp">
@@ -167,7 +167,7 @@
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/mezza"
+            android:src="@drawable/shunka"
             android:padding="5dp"
             android:layout_gravity="center_vertical">
         </ImageView>
@@ -179,7 +179,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/la_mezza_luna">
+                android:text="@string/japo3">
             </TextView>
             <TextView
                 android:layout_width="match_parent"
@@ -192,7 +192,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/mezzaubi"
+                android:text="@string/japo3adreca"
                 android:textSize="15sp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginEnd="5dp">

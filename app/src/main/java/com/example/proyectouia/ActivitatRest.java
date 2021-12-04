@@ -24,6 +24,12 @@ public class ActivitatRest extends AppCompatActivity implements AdapterView.OnIt
         darClic();
     }
 
+    private void agregandoValores() {
+        lista.add("Vegetaria");
+        lista.add("Italia");
+        lista.add("Japones");
+    }
+
     private void darClic() {
         spinnerRest.setOnItemSelectedListener(this);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, lista);
@@ -31,18 +37,14 @@ public class ActivitatRest extends AppCompatActivity implements AdapterView.OnIt
         spinnerRest.setAdapter(adapter);
     }
 
-    private void agregandoValores() {
-        lista.add("Vegetaria");
-        lista.add("Italia");
-        lista.add("Japones");
-    }
-
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
         String valor;
         valor = (String) adapterView.getSelectedItem();
+
         FragmentManager fm = getSupportFragmentManager();
         BlankFragment1Rest fragment1 = new BlankFragment1Rest();
+
         FragmentManager fm2 = getSupportFragmentManager();
         BlankFragment2Rest fragment2 = new BlankFragment2Rest();
 
@@ -52,7 +54,7 @@ public class ActivitatRest extends AppCompatActivity implements AdapterView.OnIt
         switch (valor) {
             case "Vegetaria":
                 if (getSupportFragmentManager().findFragmentById(R.id.contenidorrestaurants) != null) {
-                    getSupportFragmentManager().beginTransaction().remove(Objects.requireNonNull(getSupportFragmentManager().findFragmentById(R.id.contenidorHotels))).commit();
+                    getSupportFragmentManager().beginTransaction().remove(Objects.requireNonNull(getSupportFragmentManager().findFragmentById(R.id.contenidorrestaurants))).commit();
                 }
                 fm.beginTransaction().add(R.id.contenidorrestaurants, fragment1).commit();
                 break;
@@ -64,7 +66,7 @@ public class ActivitatRest extends AppCompatActivity implements AdapterView.OnIt
                 break;
             case "Japones":
                 if (getSupportFragmentManager().findFragmentById(R.id.contenidorrestaurants) != null) {
-                    getSupportFragmentManager().beginTransaction().remove(Objects.requireNonNull(getSupportFragmentManager().findFragmentById(R.id.contenidorHotels))).commit();
+                    getSupportFragmentManager().beginTransaction().remove(Objects.requireNonNull(getSupportFragmentManager().findFragmentById(R.id.contenidorrestaurants))).commit();
                 }
                 fm3.beginTransaction().add(R.id.contenidorrestaurants, fragment3).commit();
                 break;
