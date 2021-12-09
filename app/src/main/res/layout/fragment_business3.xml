@@ -83,7 +83,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/aso2"
+                android:text="Associació"
                 android:textSize="20sp">
             </TextView>
             <TextView

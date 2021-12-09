@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        ImageButton imageButton=(ImageButton)view;
         if(view.getId()==businesses.getId()) {
             Intent i1=new Intent(getApplicationContext(),ActivitatBusinesses.class);
             startActivity(i1);
