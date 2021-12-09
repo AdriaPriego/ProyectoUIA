@@ -42,8 +42,8 @@ public class FragmentBusiness1 extends Fragment {
      * @return A new instance of fragment BlankFragment1Hotels.
      */
     // TODO: Rename and change types and number of parameters
-    public static BlankFragment1Hotels newInstance(String param1, String param2) {
-        BlankFragment1Hotels fragment = new BlankFragment1Hotels();
+    public static FragmentBusiness1 newInstance(String param1, String param2) {
+        FragmentBusiness1 fragment = new FragmentBusiness1();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -71,14 +71,14 @@ public class FragmentBusiness1 extends Fragment {
             mapIntent.setPackage("com.google.android.apps.maps");
             startActivity(mapIntent);
         });
-        Button b2=(Button) view.findViewById(R.id.b2);
+        ImageButton b2=(ImageButton) view.findViewById(R.id.b2);
         b2.setOnClickListener(v -> {
             Uri gmmIntentUri = Uri.parse("https://goo.gl/maps/qN3Qcm1kaAmWMcGU8");
             Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
             mapIntent.setPackage("com.google.android.apps.maps");
             startActivity(mapIntent);
         });
-        Button b3=(Button) view.findViewById(R.id.b3);
+        ImageButton b3=(ImageButton) view.findViewById(R.id.b3);
         b3.setOnClickListener(v -> {
             Uri gmmIntentUri = Uri.parse("https://goo.gl/maps/nparNfBTk7UCAvUo9");
             Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);

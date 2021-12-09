@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class ActivitatBusinesses extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     Spinner spinnerBusinesses;
@@ -27,7 +28,6 @@ public class ActivitatBusinesses extends AppCompatActivity implements AdapterVie
         lista.add("Selecciona una opció");
         lista.add("Perruqueries");
         lista.add("Farmàcies");
-        lista.add("Forns de pa");
         lista.add("Associacions");
     }
     private void click()
@@ -52,21 +52,22 @@ public class ActivitatBusinesses extends AppCompatActivity implements AdapterVie
         switch (valor)
         {
             case "Perruqueries":
-                if (fm.findFragmentById(R.id.contenidorBusinesses) == null) {
-                    fm.beginTransaction().add(R.id.contenidorBusinesses,fragment1).commit();
+                if (fm.findFragmentById(R.id.contenidorBusinesses) != null) {
+                    getSupportFragmentManager().beginTransaction().remove(Objects.requireNonNull(getSupportFragmentManager().findFragmentById(R.id.contenidorBusinesses))).commit();
                 }
+                fm.beginTransaction().add(R.id.contenidorBusinesses,fragment1).commit();
                 break;
-            case "2":
-                if (fm2.findFragmentById(R.id.contenidorHotels) == null) {
-                    fm2.beginTransaction().add(R.id.contenidorBusinesses,fragment2).commit();
+            case "Farmàcies":
+                if (fm2.findFragmentById(R.id.contenidorBusinesses) != null) {
+                    getSupportFragmentManager().beginTransaction().remove(Objects.requireNonNull(getSupportFragmentManager().findFragmentById(R.id.contenidorBusinesses))).commit();
                 }
+                fm2.beginTransaction().add(R.id.contenidorBusinesses,fragment2).commit();
                 break;
-            case "3":
-                if (fm3.findFragmentById(R.id.contenidorHotels) == null) {
-                    fm3.beginTransaction().add(R.id.contenidorBusinesses,fragment3).commit();
+            case "Associacions":
+                if (fm3.findFragmentById(R.id.contenidorBusinesses) != null) {
+                    getSupportFragmentManager().beginTransaction().remove(Objects.requireNonNull(getSupportFragmentManager().findFragmentById(R.id.contenidorBusinesses))).commit();
                 }
-                break;
-            default:
+                fm3.beginTransaction().add(R.id.contenidorBusinesses,fragment3).commit();
                 break;
         }
     }

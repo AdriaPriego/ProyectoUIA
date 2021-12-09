@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".FragmentBusiness1"
     android:orientation="vertical">
     <LinearLayout
@@ -35,7 +34,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/adreça1"
+                android:text="@string/adreçapelu1"
                 android:textSize="15sp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginEnd="5dp">
@@ -47,17 +46,19 @@
                 <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/textbotohotels"
                     android:id="@+id/b1"
                     android:src="@drawable/directions_white_18dp">
                 </ImageButton>
                 <ImageButton
                     android:layout_width="55dp"
                     android:layout_height="55dp"
-                    android:text="@string/textbotohotels"
                     android:src="@drawable/wheelchair_26px">
                 </ImageButton>
             </LinearLayout>
+            <RatingBar
+                android:layout_width="195dp"
+                android:layout_height="wrap_content">
+            </RatingBar>
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
@@ -82,30 +83,37 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nova Perruquers">
-            </TextView>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/textaadreçahotels"
-                android:textSize="18sp"
-                android:layout_marginBottom="5dp"
-                android:layout_marginEnd="5dp">
+                android:text="@string/pelu2"
+                android:textSize="20sp">
             </TextView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Carrer de Sant Josep, 12, 08401 Granollers, Barcelona"
+                android:text="@string/adreçapelu2"
                 android:textSize="15sp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginEnd="5dp">
             </TextView>
-            <Button
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/textbotohotels"
-                android:id="@+id/b2">
-            </Button>
+                android:orientation="horizontal">
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/b2"
+                    android:src="@drawable/directions_white_18dp">
+                </ImageButton>
+                <ImageButton
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/wheelchair_26px">
+                </ImageButton>
+            </LinearLayout>
+            <RatingBar
+                android:layout_width="195dp"
+                android:layout_height="wrap_content">
+            </RatingBar>
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
@@ -130,31 +138,32 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Marc Calvache Hair Salon">
-            </TextView>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/textaadreçahotels"
-                android:textSize="18sp"
-                android:layout_marginBottom="5dp"
-                android:layout_marginEnd="5dp">
+                android:text="@string/pelu3"
+                android:textSize="20sp">
             </TextView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Carrer de Sant Josep, 1, 08401 Granollers, Barcelona"
+                android:text="@string/adreçapelu3"
                 android:textSize="15sp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginEnd="5dp">
             </TextView>
-
-            <Button
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/textbotohotels"
-                android:id="@+id/b3">
-            </Button>
+                android:orientation="horizontal">
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/b3"
+                    android:src="@drawable/directions_white_18dp">
+                </ImageButton>
+            </LinearLayout>
+            <RatingBar
+                android:layout_width="195dp"
+                android:layout_height="wrap_content">
+            </RatingBar>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

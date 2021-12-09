@@ -65,7 +65,7 @@
     <string name="la_mezza_luna">La Mezza Luna</string>
     <string name="sector">Escull el sector</string>
     <string name="peluqueria1">Xavier Arcarons Perruquers</string>
-    <string name="adreça1">Carrer Príncep de Viana, nº 6, 08401 Granollers</string>
+    <string name="adreçapelu1">Carrer Príncep de Viana, nº 6, 08401 Granollers</string>
     <string name="tria_la_qualitat_dels_hotels">Tria la qualitat dels hotels</string>
     <string name="tria_la_qualitat_dels_restaurants">Tria la qualitat dels Restaurants</string>
     <string name="japo1">Robata Restaurant Japonés</string>
@@ -74,4 +74,15 @@
     <string name="japo2adreca">Carrer de Tarragona, 99, 08014 Barcelona</string>
     <string name="japo3">Restaurante Shunka</string>
     <string name="japo3adreca">Carrer dels Sagristans, 5, 08002 Barcelona</string>
+    <string name="pelu3">Marc Calvache Hair Salon</string>
+    <string name="adreçapelu3">Carrer de Sant Josep, 1, 08401 Granollers, Barcelona</string>
+    <string name="adreçapelu2">Carrer de Sant Josep, 12, 08401 Granollers, Barcelona</string>
+    <string name="pelu2">Nova Perruquers</string>
+    <string name="farmacia1">Farmàcia Arimany</string>
+    <string name="direcciofarmacia1">Plaça Josep Maluquer i Salvador, 11, 08401 Granollers</string>
+    <string name="farmacia2">Farmàcia</string>
+    <string name="farmacia3">Farmàcia</string>
+    <string name="asso1">Cannallers</string>
+    <string name="direccioaso1">Avinguda d\'Europa, Nº 36, 08401 Granollers</string>
+    <string name="aso2">Associació</string>
 </resources>

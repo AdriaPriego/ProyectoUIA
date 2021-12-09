@@ -1,5 +1,8 @@
 package com.example.proyectouia;
 
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,10 +10,12 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageButton;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link FragmentBusiness3#newInstance} factory method to
+ * Use the {@link FragmentBusiness1#newInstance} factory method to
  * create an instance of this fragment.
  */
 public class FragmentBusiness3 extends Fragment {
@@ -34,7 +39,7 @@ public class FragmentBusiness3 extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment FragmentBusiness3.
+     * @return A new instance of fragment BlankFragment1Hotels.
      */
     // TODO: Rename and change types and number of parameters
     public static FragmentBusiness3 newInstance(String param1, String param2) {
@@ -58,7 +63,28 @@ public class FragmentBusiness3 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_business3, container, false);
+        View view =inflater.inflate(R.layout.fragment_business3, container, false);
+        ImageButton b1= (ImageButton) view.findViewById(R.id.b1);
+        b1.setOnClickListener(v -> {
+            Uri gmmIntentUri = Uri.parse("https://goo.gl/maps/N5wbJTGqcEvV2n8i7");
+            Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+            mapIntent.setPackage("com.google.android.apps.maps");
+            startActivity(mapIntent);
+        });
+        ImageButton b2=(ImageButton) view.findViewById(R.id.b2);
+        b2.setOnClickListener(v -> {
+            Uri gmmIntentUri = Uri.parse("https://goo.gl/maps/qN3Qcm1kaAmWMcGU8");
+            Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+            mapIntent.setPackage("com.google.android.apps.maps");
+            startActivity(mapIntent);
+        });
+        ImageButton b3=(ImageButton) view.findViewById(R.id.b3);
+        b3.setOnClickListener(v -> {
+            Uri gmmIntentUri = Uri.parse("https://goo.gl/maps/nparNfBTk7UCAvUo9");
+            Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+            mapIntent.setPackage("com.google.android.apps.maps");
+            startActivity(mapIntent);
+        });
+        return view;
     }
 }
